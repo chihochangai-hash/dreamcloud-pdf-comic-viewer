@@ -4,6 +4,20 @@ Windows 上的 PDF 漫畫閱讀器。用 PyQt6 顯示頁面，PyMuPDF 渲染 PDF
 
 A Windows PDF comic reader. PyQt6 draws the window, PyMuPDF renders each page, and Pillow applies the image adjustments.
 
+## 介面 / Interface
+
+主畫面。底部工具列在游標移開後會隱藏。
+
+The main window. The bottom toolbar hides after the pointer leaves it.
+
+![主畫面 Main window](screenshots/main.jpg)
+
+調整面板有排版、畫質、色彩與放大鏡。
+
+The adjustment panel covers layout, quality, color, and the magnifier.
+
+![調整面板 Adjustments](screenshots/adjustments.jpg)
+
 ## 功能
 
 - 拖拉或從命令列開啟 PDF，並記住閱讀進度
